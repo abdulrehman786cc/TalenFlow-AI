@@ -656,7 +656,7 @@ export function TalentFlowDashboard() {
               <Brain className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-white">TalentFlowAI</h1>
+              <h1 className="text-2xl sm:text-3xl font-bold text-white">TalentFlow</h1>
               <p className="text-sm sm:text-base text-gray-300">Powered By ClickChain.ai</p>
             </div>
           </div>
@@ -1148,7 +1148,7 @@ export function TalentFlowDashboard() {
                               <span className="text-sm font-medium truncate text-white">{insight.pattern}</span>
                             </div>
                             <p className="text-xs text-gray-300 line-clamp-2">{insight.insight}</p>
-                            <Badge variant="outline" className="text-xs mt-1">
+                            <Badge variant="outline" className="text-xs mt-1 text-white">
                               {insight.confidence}% confidence
                             </Badge>
                           </div>
@@ -1630,7 +1630,7 @@ function CandidateBriefing({
                   return (
                     <div key={i} className="flex items-center justify-between gap-2">
                       <span className="text-sm truncate text-gray-300">{skill}</span>
-                      <Badge variant={isMatch ? "default" : "outline"} className="text-xs flex-shrink-0">
+                      <Badge variant={isMatch ? "default" : "outline"} className="text-xs flex-shrink-0 text-white">
                         {isMatch ? "Strong Match" : "Partial Match"}
                       </Badge>
                     </div>
