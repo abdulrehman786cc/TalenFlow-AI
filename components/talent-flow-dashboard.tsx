@@ -881,7 +881,7 @@ export function TalentFlowDashboard() {
                                   {semanticResults.find((r) => r.id === candidate.id)?.semanticScore}%
                                 </Badge>
                               ) : (
-                                <Badge variant="outline" className="text-xs flex-shrink-0">
+                                <Badge variant="outline" className="text-xs flex-shrink-0 text-white">
                                   Pending
                                 </Badge>
                               )}
@@ -972,7 +972,7 @@ export function TalentFlowDashboard() {
                                   {interviewResults.find((r) => r.id === candidate.id)?.interviewScore}%
                                 </Badge>
                               ) : (
-                                <Badge variant="outline" className="text-xs flex-shrink-0">
+                                <Badge variant="outline" className="text-xs flex-shrink-0 text-white">
                                   Pending
                                 </Badge>
                               )}
@@ -1366,7 +1366,7 @@ export function TalentFlowDashboard() {
                                       <span className="font-medium text-sm truncate text-white">
                                         {action.agentName}
                                       </span>
-                                      <Badge variant="outline" className="text-xs flex-shrink-0">
+                                      <Badge variant="outline" className="text-xs flex-shrink-0 text-white">
                                         {action.action}
                                       </Badge>
                                     </div>
